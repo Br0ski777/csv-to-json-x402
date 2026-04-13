@@ -30,6 +30,47 @@ Do NOT use for JSON validation -- use data_validate_json instead. Do NOT use for
         },
         required: ["csv"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "rows": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              },
+              "description": "Parsed rows as JSON objects"
+            },
+            "rowCount": {
+              "type": "number",
+              "description": "Number of rows parsed"
+            },
+            "columns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Column headers"
+            },
+            "columnCount": {
+              "type": "number",
+              "description": "Number of columns"
+            },
+            "delimiter": {
+              "type": "string",
+              "description": "Delimiter detected or used"
+            },
+            "hasHeaders": {
+              "type": "boolean",
+              "description": "Whether first row was treated as headers"
+            }
+          },
+          "required": [
+            "rows",
+            "rowCount",
+            "columns",
+            "columnCount"
+          ]
+        },
     },
   ],
 };
