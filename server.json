@@ -1,1 +1,18 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","name":"io.github.Br0ski777/csv-to-json","title":"CSV to JSON API","description":"Parse CSV to JSON array. Auto-detect delimiter, headers. x402 micropayment.","version":"1.0.0","websiteUrl":"https://github.com/Br0ski777/csv-to-json-x402","repository":{"url":"https://github.com/Br0ski777/csv-to-json-x402","source":"github"},"remotes":[{"type":"sse","url":"https://PLACEHOLDER.up.railway.app/mcp"}]}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/csv-to-json",
+  "title": "CSV to JSON API",
+  "description": "Parse CSV to JSON array. Auto-detect delimiter, headers. x402 micropayment.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/Br0ski777/csv-to-json-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/csv-to-json-x402",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://csv-to-json-production-0ca3.up.railway.app/mcp"
+    }
+  ]
+}
