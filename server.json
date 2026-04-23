@@ -3,7 +3,7 @@
   "name": "io.github.Br0ski777/csv-to-json",
   "title": "CSV to JSON API",
   "description": "Parse CSV to JSON array. Auto-detect delimiter, headers. x402 micropayment.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://github.com/Br0ski777/csv-to-json-x402",
   "repository": {
     "url": "https://github.com/Br0ski777/csv-to-json-x402",
