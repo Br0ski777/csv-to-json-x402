@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://csv-to-json-x402-production.up.railway.app/mcp"
+      "url": "https://csv-to-json.api.klymax402.com/mcp"
     }
   ]
 }
