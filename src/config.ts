@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/parse",
-      price: "$0.001",
+      price: "$0.003",
       description: "Parse CSV text to JSON array",
       toolName: "data_parse_csv_to_json",
       toolDescription: `Use this when you need to convert CSV data to a JSON array. Returns parsed data with auto-detected settings in JSON.
