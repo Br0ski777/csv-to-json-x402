@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `data_parse_csv_to_json` | POST | `/api/parse` | $0.001 | Parse CSV text to JSON array |
+| `data_parse_csv_to_json` | POST | `/api/parse` | $0.003 | Parse CSV text to JSON array |
 
 ### `data_parse_csv_to_json`
 
